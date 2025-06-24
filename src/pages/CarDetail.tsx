@@ -3,6 +3,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Chatbot from '../components/Chatbot';
 import carsData from '../data/cars.json';
 
 const CarDetail = () => {
@@ -148,6 +149,7 @@ const CarDetail = () => {
       </section>
 
       <Footer />
+      <Chatbot />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Chatbot from '../components/Chatbot';
 import carsData from '../data/cars.json';
 
 const Booking = () => {
@@ -290,6 +291,7 @@ const Booking = () => {
       </section>
 
       <Footer />
+      <Chatbot />
     </div>
   );
 };
